@@ -1,6 +1,16 @@
-# threeJS-tryhard-1
+# Three.js Journey
 
-1. Создать сцену в Three.js
-2. Использовать в сцене HemisphereLight и PointLight
-3. Создать объект со скелетом, применить к нему "кожу" (Skeleton, SkinnedMesh)
-4. Задать объекту анимацию (AnimationActions, KeyframeTrack, 'dance')
+## Setup
+Download [Node.js](https://nodejs.org/en/download/).
+Run this followed commands:
+
+``` bash
+# Install dependencies (only the first time)
+npm install
+
+# Run the local server at localhost:8080
+npm run dev
+
+# Build for production in the dist/ directory
+npm run build
+```
