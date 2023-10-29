@@ -76,3 +76,9 @@ function animate() {
 }
 
 animate();
+
+const root = new THREE.Bone();
+const child = new THREE.Bone();
+
+root.add( child );
+child.position.y = 5;
